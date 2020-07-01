@@ -7,6 +7,14 @@ This integration provides different components:
 * Amplience JSON Schemas for Content Items and Slots
 * Handlebar Templates
 
+# Hybris
+* see [Hybris general](hybris.md)
+* see [Hybris installation instructions](hybris/install.md)
+
+# Amplience
+* see [Amplience general](amplience.md)
+* see [Amplience configuration instructions](amplience/install.md)
+
 # Copyright
 neteleven GmbH\
 Balanstr. 215\
