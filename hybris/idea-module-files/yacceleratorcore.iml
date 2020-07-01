@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="yacceleratorcorespring" name="yacceleratorcorespring" removed="false">
+          <dependency>solrserverspring==solrserver</dependency>
+          <dependency>acceleratorcmsspring==acceleratorcms</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/resources/yacceleratorcore/processes/quote/quote-seller-approval-process-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/resources/yacceleratorcore/processes/quote/quote-to-expire-soon-email-process-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/resources/yacceleratorcore/integration/hot-folder-store-electronics-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/resources/yacceleratorcore/processes/quote/quote-buyer-process-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/resources/yacceleratorcore/processes/quote/quote-expired-email-process-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/resources/yacceleratorcore/integration/hot-folder-common-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/resources/yacceleratorcore/integration/hot-folder-store-apparel-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/resources/yacceleratorcore-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/resources/yacceleratorcore/processes/quote/quote-post-cancellation-process-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/resources/yacceleratorcore/processes/quote/quote-salesrep-process-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorcore/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="solrserver" exported="" />
+    <orderEntry type="module" module-name="acceleratorcms" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

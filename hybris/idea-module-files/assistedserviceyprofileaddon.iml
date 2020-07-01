@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="assistedserviceyprofileaddonspring" name="assistedserviceyprofileaddonspring" removed="false">
+          <dependency>addonsupportspring==addonsupport</dependency>
+          <dependency>assistedserviceyprofilefacadesspring==assistedserviceyprofilefacades</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/resources/assistedserviceyprofileaddon-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services-integrations/assistedserviceyprofileaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="addonsupport" exported="" />
+    <orderEntry type="module" module-name="assistedserviceyprofilefacades" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

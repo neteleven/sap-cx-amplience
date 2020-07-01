@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="apparelstorespring" name="apparelstorespring" removed="false">
+          <dependency>acceleratorservicesspring==acceleratorservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/resources/apparelstore-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/apparelstore/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="acceleratorservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

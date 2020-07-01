@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="paymentspring" name="paymentspring" removed="false">
+          <dependency>basecommercespring==basecommerce</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/base-commerce/payment/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-commerce/payment/resources/payment-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/base-commerce/payment/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/base-commerce/payment/bin/paymentserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="basecommerce" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

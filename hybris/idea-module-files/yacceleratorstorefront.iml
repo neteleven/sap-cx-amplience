@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="yacceleratorstorefrontspring" name="yacceleratorstorefrontspring" removed="false">
+          <dependency>adaptivesearchsamplesaddonspring==adaptivesearchsamplesaddon</dependency>
+          <dependency>personalizationaddonspring==personalizationaddon</dependency>
+          <dependency>captchaaddonspring==captchaaddon</dependency>
+          <dependency>xyformsstorefrontcommonsspring==xyformsstorefrontcommons</dependency>
+          <dependency>assistedserviceyprofileaddonspring==assistedserviceyprofileaddon</dependency>
+          <dependency>personalizationsearchsamplesaddonspring==personalizationsearchsamplesaddon</dependency>
+          <dependency>promotionenginesamplesaddonspring==promotionenginesamplesaddon</dependency>
+          <dependency>merchandisingstorefrontsampledataaddonspring==merchandisingstorefrontsampledataaddon</dependency>
+          <dependency>pcmbackofficesamplesaddonspring==pcmbackofficesamplesaddon</dependency>
+          <dependency>yacceleratorfacadesspring==yacceleratorfacades</dependency>
+          <dependency>configurablebundleaddonspring==configurablebundleaddon</dependency>
+          <dependency>acceleratorstorefrontcommonsspring==acceleratorstorefrontcommons</dependency>
+          <dependency>personalizationyprofilesampledataaddonspring==personalizationyprofilesampledataaddon</dependency>
+          <dependency>smarteditaddonspring==smarteditaddon</dependency>
+          <dependency>xyformssamplesspring==xyformssamples</dependency>
+          <dependency>notificationaddonspring==notificationaddon</dependency>
+          <dependency>consignmenttrackingaddonspring==consignmenttrackingaddon</dependency>
+          <dependency>profiletagaddonspring==profiletagaddon</dependency>
+          <dependency>commerceorgsamplesaddonspring==commerceorgsamplesaddon</dependency>
+          <dependency>merchandisingaddonspring==merchandisingaddon</dependency>
+          <dependency>textfieldconfiguratortemplateaddonspring==textfieldconfiguratortemplateaddon</dependency>
+          <dependency>platformspring==platform</dependency>
+          <dependency>orderselfserviceaddonspring==orderselfserviceaddon</dependency>
+          <dependency>customerticketingaddonspring==customerticketingaddon</dependency>
+          <dependency>assistedservicepromotionaddonspring==assistedservicepromotionaddon</dependency>
+          <dependency>assistedservicecustomerinterestsaddonspring==assistedservicecustomerinterestsaddon</dependency>
+          <dependency>customerinterestsaddonspring==customerinterestsaddon</dependency>
+          <dependency>assistedservicestorefrontspring==assistedservicestorefront</dependency>
+          <dependency>stocknotificationaddonspring==stocknotificationaddon</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/config/spring-mvc-config.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/core-accelerator/acceleratorcms/resources/acceleratorcms/spring/web-spring-context.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/config/web-application-config.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/config/multi-step-checkout-config.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/config/spring-filter-config.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/config/spring-security-config.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/config/spring-cms-config.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/web/webroot" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/web/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorstorefront/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="adaptivesearchsamplesaddon" exported="" />
+    <orderEntry type="module" module-name="personalizationaddon" exported="" />
+    <orderEntry type="module" module-name="captchaaddon" exported="" />
+    <orderEntry type="module" module-name="xyformsstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="assistedserviceyprofileaddon" exported="" />
+    <orderEntry type="module" module-name="personalizationsearchsamplesaddon" exported="" />
+    <orderEntry type="module" module-name="promotionenginesamplesaddon" exported="" />
+    <orderEntry type="module" module-name="merchandisingstorefrontsampledataaddon" exported="" />
+    <orderEntry type="module" module-name="pcmbackofficesamplesaddon" exported="" />
+    <orderEntry type="module" module-name="yacceleratorfacades" exported="" />
+    <orderEntry type="module" module-name="configurablebundleaddon" exported="" />
+    <orderEntry type="module" module-name="acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="personalizationyprofilesampledataaddon" exported="" />
+    <orderEntry type="module" module-name="smarteditaddon" exported="" />
+    <orderEntry type="module" module-name="xyformssamples" exported="" />
+    <orderEntry type="module" module-name="notificationaddon" exported="" />
+    <orderEntry type="module" module-name="consignmenttrackingaddon" exported="" />
+    <orderEntry type="module" module-name="profiletagaddon" exported="" />
+    <orderEntry type="module" module-name="commerceorgsamplesaddon" exported="" />
+    <orderEntry type="module" module-name="merchandisingaddon" exported="" />
+    <orderEntry type="module" module-name="textfieldconfiguratortemplateaddon" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+    <orderEntry type="module" module-name="orderselfserviceaddon" exported="" />
+    <orderEntry type="module" module-name="customerticketingaddon" exported="" />
+    <orderEntry type="module" module-name="assistedservicepromotionaddon" exported="" />
+    <orderEntry type="module" module-name="assistedservicecustomerinterestsaddon" exported="" />
+    <orderEntry type="module" module-name="customerinterestsaddon" exported="" />
+    <orderEntry type="module" module-name="assistedservicestorefront" exported="" />
+    <orderEntry type="module" module-name="stocknotificationaddon" exported="" />
+  </component>
+</module>

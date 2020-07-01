@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="odata2servicesspring" name="odata2servicesspring" removed="false">
+          <dependency>inboundservicesspring==inboundservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/resources/odata2services-persistence-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/resources/odata2services-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2services/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="inboundservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

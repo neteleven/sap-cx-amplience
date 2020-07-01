@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="personalizationservicesspring" name="personalizationservicesspring" removed="false">
+          <dependency>commerceservicesspring==commerceservices</dependency>
+          <dependency>platformservicesspring==platformservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/resources/personalizationservices-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/bin/personalizationservicesserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/personalization/personalizationservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="commerceservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

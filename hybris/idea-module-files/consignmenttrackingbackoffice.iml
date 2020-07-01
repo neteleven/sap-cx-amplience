@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="consignmenttrackingbackofficespring" name="consignmenttrackingbackofficespring" removed="false">
+          <dependency>backofficespring==backoffice</dependency>
+          <dependency>consignmenttrackingservicesspring==consignmenttrackingservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/resources/consignmenttrackingbackoffice-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingbackoffice/bin/consignmenttrackingbackofficeserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="backoffice" exported="" />
+    <orderEntry type="module" module-name="consignmenttrackingservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

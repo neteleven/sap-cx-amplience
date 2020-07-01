@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="commerceorgsamplesaddonspring" name="commerceorgsamplesaddonspring" removed="false">
+          <dependency>addonsupportspring==addonsupport</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/resources/commerceorgsamplesaddon-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/b2b-accelerator/commerceorgsamplesaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="addonsupport" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

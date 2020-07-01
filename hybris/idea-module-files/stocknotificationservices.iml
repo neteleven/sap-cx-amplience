@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="stocknotificationservicesspring" name="stocknotificationservicesspring" removed="false">
+          <dependency>customerinterestsservicesspring==customerinterestsservices</dependency>
+          <dependency>notificationservicesspring==notificationservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/resources/stocknotificationservices-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/stock-notification/stocknotificationservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="customerinterestsservices" exported="" />
+    <orderEntry type="module" module-name="notificationservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="solrfacetsearchspring" name="solrfacetsearchspring" removed="false">
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/resources/global-solrfacetsearch-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/resources/solrfacetsearch-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/resources/solrfacetsearch-converters.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/bin/solrfacetsearchserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrfacetsearch/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

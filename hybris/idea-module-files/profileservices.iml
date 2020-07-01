@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="profileservicesspring" name="profileservicesspring" removed="false">
+          <dependency>commerceservicesspring==commerceservices</dependency>
+          <dependency>commercefacadesspring==commercefacades</dependency>
+          <dependency>apiregistrybackofficespring==apiregistrybackoffice</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/resources/profileservices-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/cds-integration/profileservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="commerceservices" exported="" />
+    <orderEntry type="module" module-name="commercefacades" exported="" />
+    <orderEntry type="module" module-name="apiregistrybackoffice" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

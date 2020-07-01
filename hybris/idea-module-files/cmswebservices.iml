@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="cmswebservicesspring" name="cmswebservicesspring" removed="false">
+          <dependency>webservicescommonsspring==webservicescommons</dependency>
+          <dependency>cmsfacadesspring==cmsfacades</dependency>
+          <dependency>oauth2spring==oauth2</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/webroot/WEB-INF/config/security-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/webroot/WEB-INF/config/filter-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/webroot/WEB-INF/config/cache-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/resources/cmswebservices-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/webroot/WEB-INF/config/interceptor-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/webroot/WEB-INF/cmswebservices-web-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/resources/webservicescommons/commons-security-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/webroot/WEB-INF/config/field-mapping-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/resources/config/cmswebservices-structuretypes-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/webroot/WEB-INF/config/error-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/webroot/WEB-INF/config/dto-mapping-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/webroot" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmswebservices/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="webservicescommons" exported="" />
+    <orderEntry type="module" module-name="cmsfacades" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

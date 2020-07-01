@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="consignmenttrackingfacadesspring" name="consignmenttrackingfacadesspring" removed="false">
+          <dependency>consignmenttrackingservicesspring==consignmenttrackingservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/resources/consignmenttrackingfacades-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingfacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="consignmenttrackingservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

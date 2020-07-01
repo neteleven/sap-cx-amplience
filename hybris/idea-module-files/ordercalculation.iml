@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="ordercalculationspring" name="ordercalculationspring" removed="false">
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/resources/ordercalculation-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/rule-engine/ordercalculation/bin/ordercalculationserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

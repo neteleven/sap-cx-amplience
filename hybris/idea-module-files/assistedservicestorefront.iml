@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="assistedservicestorefrontspring" name="assistedservicestorefrontspring" removed="false">
+          <dependency>addonsupportspring==addonsupport</dependency>
+          <dependency>cms2spring==cms2</dependency>
+          <dependency>acceleratorstorefrontcommonsspring==acceleratorstorefrontcommons</dependency>
+          <dependency>platformspring==platform</dependency>
+          <dependency>assistedservicefacadesspring==assistedservicefacades</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/resources/assistedservicestorefront-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicestorefront/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="addonsupport" exported="" />
+    <orderEntry type="module" module-name="cms2" exported="" />
+    <orderEntry type="module" module-name="acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+    <orderEntry type="module" module-name="assistedservicefacades" exported="" />
+  </component>
+</module>

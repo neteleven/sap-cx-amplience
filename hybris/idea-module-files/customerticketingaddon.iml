@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="customerticketingaddonspring" name="customerticketingaddonspring" removed="false">
+          <dependency>customerticketingfacadesspring==customerticketingfacades</dependency>
+          <dependency>addonsupportspring==addonsupport</dependency>
+          <dependency>acceleratorstorefrontcommonsspring==acceleratorstorefrontcommons</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/resources/customerticketingaddon-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="customerticketingfacades" exported="" />
+    <orderEntry type="module" module-name="addonsupport" exported="" />
+    <orderEntry type="module" module-name="acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

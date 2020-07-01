@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="customerticketingfacadesspring" name="customerticketingfacadesspring" removed="false">
+          <dependency>ticketsystemspring==ticketsystem</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/resources/customerticketingfacades-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/customer-service/customerticketingfacades/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="ticketsystem" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

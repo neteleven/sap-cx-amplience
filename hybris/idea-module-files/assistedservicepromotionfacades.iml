@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="assistedservicepromotionfacadesspring" name="assistedservicepromotionfacadesspring" removed="false">
+          <dependency>couponservicesspring==couponservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <dependency>assistedservicefacadesspring==assistedservicefacades</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/resources/assistedservicepromotionfacades-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionfacades/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="couponservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+    <orderEntry type="module" module-name="assistedservicefacades" exported="" />
+  </component>
+</module>

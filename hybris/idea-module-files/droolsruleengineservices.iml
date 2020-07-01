@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="droolsruleengineservicesspring" name="droolsruleengineservicesspring" removed="false">
+          <dependency>ruleengineservicesspring==ruleengineservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/resources/droolsruleengineservices-spring-compiler.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/resources/droolsruleengineservices-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/rule-engine/droolsruleengineservices/bin/droolsruleengineservicesserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="ruleengineservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

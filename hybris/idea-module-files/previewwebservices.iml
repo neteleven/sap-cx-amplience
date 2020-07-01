@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="previewwebservicesspring" name="previewwebservicesspring" removed="false">
+          <dependency>webservicescommonsspring==webservicescommons</dependency>
+          <dependency>cms2spring==cms2</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/web/webroot/WEB-INF/config/validation-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/resources/previewwebservices-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/web/webroot/WEB-INF/previewwebservices-web-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/web/webroot/WEB-INF/config/error-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/web/webroot/WEB-INF/config/field-mapping-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/web/webroot" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/bin/previewwebservicesserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/previewwebservices/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="webservicescommons" exported="" />
+    <orderEntry type="module" module-name="cms2" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="embeddedserverspring" name="embeddedserverspring" removed="false">
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/web/webroot/WEB-INF/embeddedserver-web-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/resources/embeddedserver-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/web/webroot" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/platform/embeddedserver/bin/embeddedserverserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/platform/embeddedserver/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

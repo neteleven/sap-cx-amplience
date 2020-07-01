@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="commerceservicesspring" name="commerceservicesspring" removed="false">
+          <dependency>promotionsspring==promotions</dependency>
+          <dependency>basecommercespring==basecommerce</dependency>
+          <dependency>paymentspring==payment</dependency>
+          <dependency>customerreviewspring==customerreview</dependency>
+          <dependency>solrfacetsearchspring==solrfacetsearch</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/resources/commerceservices-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/resources/commerceservices/mock-payment-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/resources/commerceservices-spring-solrfacetsearch.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/commerce-services/commerceservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="promotions" exported="" />
+    <orderEntry type="module" module-name="basecommerce" exported="" />
+    <orderEntry type="module" module-name="payment" exported="" />
+    <orderEntry type="module" module-name="customerreview" exported="" />
+    <orderEntry type="module" module-name="solrfacetsearch" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

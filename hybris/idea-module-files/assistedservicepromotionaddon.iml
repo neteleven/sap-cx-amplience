@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="assistedservicepromotionaddonspring" name="assistedservicepromotionaddonspring" removed="false">
+          <dependency>addonsupportspring==addonsupport</dependency>
+          <dependency>assistedservicepromotionfacadesspring==assistedservicepromotionfacades</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/resources/assistedservicepromotionaddon-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicepromotionaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="addonsupport" exported="" />
+    <orderEntry type="module" module-name="assistedservicepromotionfacades" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

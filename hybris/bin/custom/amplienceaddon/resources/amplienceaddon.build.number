@@ -1,0 +1,11 @@
+#Ant properties
+#Mon Mar 09 12:26:41 CET 2020
+version.api=1905
+vendor=hybris
+group.id=de.hybris.platform
+name=amplienceaddon
+description=amplienceaddon
+builddate=20200309 1223
+releasedate=20190628 1509
+version=1905.12
+module.name=platform-module

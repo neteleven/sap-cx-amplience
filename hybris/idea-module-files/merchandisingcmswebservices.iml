@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="merchandisingcmswebservicesspring" name="merchandisingcmswebservicesspring" removed="false">
+          <dependency>apiregistryservicesspring==apiregistryservices</dependency>
+          <dependency>cmswebservicesspring==cmswebservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/resources/merchandisingcmswebservices-structuretypes-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/resources/merchandisingcmswebservices-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/web/webroot/WEB-INF/config/merchandisingcmswebservices-web-app-config.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/web/webroot/WEB-INF/config/merchandisingcmswebservices-spring-security-config.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/resources/webservicescommons/commons-security-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/web/webroot" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/web/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingcmswebservices/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="apiregistryservices" exported="" />
+    <orderEntry type="module" module-name="cmswebservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

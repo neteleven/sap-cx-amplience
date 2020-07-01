@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="consignmenttrackingservicesspring" name="consignmenttrackingservicesspring" removed="false">
+          <dependency>acceleratorservicesspring==acceleratorservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/resources/consignmenttrackingservices-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/consignment-tracking/consignmenttrackingservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="acceleratorservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

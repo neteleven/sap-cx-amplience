@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="assistedservicecustomerinterestsaddonspring" name="assistedservicecustomerinterestsaddonspring" removed="false">
+          <dependency>addonsupportspring==addonsupport</dependency>
+          <dependency>assistedservicecustomerinterestsfacadesspring==assistedservicecustomerinterestsfacades</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/resources/assistedservicecustomerinterestsaddon-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/assisted-services/assistedservicecustomerinterestsaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="addonsupport" exported="" />
+    <orderEntry type="module" module-name="assistedservicecustomerinterestsfacades" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

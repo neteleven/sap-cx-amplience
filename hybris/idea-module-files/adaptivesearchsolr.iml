@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="adaptivesearchsolrspring" name="adaptivesearchsolrspring" removed="false">
+          <dependency>adaptivesearchspring==adaptivesearch</dependency>
+          <dependency>solrfacetsearchspring==solrfacetsearch</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/resources/adaptivesearchsolr-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/bin/adaptivesearchsolrserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/adaptive-search/adaptivesearchsolr/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="adaptivesearch" exported="" />
+    <orderEntry type="module" module-name="solrfacetsearch" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

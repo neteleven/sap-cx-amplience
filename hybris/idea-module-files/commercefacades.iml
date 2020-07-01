@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="commercefacadesspring" name="commercefacadesspring" removed="false">
+          <dependency>commerceservicesspring==commerceservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/resources/commercefacades-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercefacades/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="commerceservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

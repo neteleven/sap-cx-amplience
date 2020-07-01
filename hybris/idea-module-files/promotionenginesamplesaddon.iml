@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="promotionenginesamplesaddonspring" name="promotionenginesamplesaddonspring" removed="false">
+          <dependency>addonsupportspring==addonsupport</dependency>
+          <dependency>couponservicesspring==couponservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/resources/promotionenginesamplesaddon-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionenginesamplesaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="addonsupport" exported="" />
+    <orderEntry type="module" module-name="couponservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

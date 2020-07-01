@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="inboundservicesspring" name="inboundservicesspring" removed="false">
+          <dependency>integrationservicesspring==integrationservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/resources/inboundservices-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/integration-apis/inboundservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="integrationservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

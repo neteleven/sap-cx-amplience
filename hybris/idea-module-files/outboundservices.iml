@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="outboundservicesspring" name="outboundservicesspring" removed="false">
+          <dependency>apiregistryservicesspring==apiregistryservices</dependency>
+          <dependency>integrationservicesspring==integrationservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/resources/outboundservices-global-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/resources/outboundservices-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/integration-apis/outboundservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="apiregistryservices" exported="" />
+    <orderEntry type="module" module-name="integrationservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

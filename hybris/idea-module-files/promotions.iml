@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="promotionsspring" name="promotionsspring" removed="false">
+          <dependency>voucherspring==voucher</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/resources/promotions-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/base-commerce/promotions/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/base-commerce/promotions/bin/promotionsserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="voucher" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="configurablebundlefacadesspring" name="configurablebundlefacadesspring" removed="false">
+          <dependency>commercefacadesspring==commercefacades</dependency>
+          <dependency>platformspring==platform</dependency>
+          <dependency>configurablebundleservicesspring==configurablebundleservices</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/resources/configurablebundlefacades/ycommercewebservices/spring/typealiasmappings.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/resources/configurablebundlefacades-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundlefacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="commercefacades" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+    <orderEntry type="module" module-name="configurablebundleservices" exported="" />
+  </component>
+</module>

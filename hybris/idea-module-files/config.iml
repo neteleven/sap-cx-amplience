@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="CONFIG" importedAsReadOnly="false" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="configspring" name="configspring" removed="false" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../config/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../config/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../config">
+      <sourceFolder url="file://$MODULE_DIR$/../config/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../config/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../config/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../config/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../config/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../config/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../config/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../config/licence" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../config/licence" recursive="true" />
+      </library>
+    </orderEntry>
+  </component>
+</module>

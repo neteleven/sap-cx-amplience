@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="customerinterestsfacadesspring" name="customerinterestsfacadesspring" removed="false">
+          <dependency>customerinterestsservicesspring==customerinterestsservices</dependency>
+          <dependency>notificationfacadesspring==notificationfacades</dependency>
+          <dependency>acceleratorfacadesspring==acceleratorfacades</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/resources/customerinterestsfacades-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/customer-interest/customerinterestsfacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="customerinterestsservices" exported="" />
+    <orderEntry type="module" module-name="notificationfacades" exported="" />
+    <orderEntry type="module" module-name="acceleratorfacades" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

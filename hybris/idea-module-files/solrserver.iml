@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="solrserverspring" name="solrserverspring" removed="false">
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/resources/global-solrserver-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/resources" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/bin/solrserverserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/search-and-navigation/solrserver/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

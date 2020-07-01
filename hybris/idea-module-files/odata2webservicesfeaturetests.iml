@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="odata2webservicesfeaturetestsspring" name="odata2webservicesfeaturetestsspring" removed="false">
+          <dependency>outboundservicesspring==outboundservices</dependency>
+          <dependency>inboundservicesspring==inboundservices</dependency>
+          <dependency>odata2webservicesspring==odata2webservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/resources/odata2webservicesfeaturetests-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/integration-apis/odata2webservicesfeaturetests/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="outboundservices" exported="" />
+    <orderEntry type="module" module-name="inboundservices" exported="" />
+    <orderEntry type="module" module-name="odata2webservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

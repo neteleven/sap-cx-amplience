@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="commercewebservicescommonsspring" name="commercewebservicescommonsspring" removed="false">
+          <dependency>commerceservicesspring==commerceservices</dependency>
+          <dependency>webservicescommonsspring==webservicescommons</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/resources/commercewebservicescommons-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/commerce-services/commercewebservicescommons/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="commerceservices" exported="" />
+    <orderEntry type="module" module-name="webservicescommons" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

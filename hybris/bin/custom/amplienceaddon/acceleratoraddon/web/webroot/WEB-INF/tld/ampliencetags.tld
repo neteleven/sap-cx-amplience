@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2020. neteleven GmbH (https://www.neteleven.de/)
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+    <tlib-version>1.0</tlib-version>
+    <short-name>amp</short-name>
+    <uri>http://neteleven.de/tld/ampliencetags</uri>
+
+    <tag>
+        <description>Renders an amplience slot</description>
+        <name>ampSlot</name>
+        <tag-class>de.neteleven.amplience.addon.tags.AmpSlotTag</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <description>the position</description>
+            <name>position</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>the context</description>
+            <name>context</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>the lookup</description>
+            <name>lookup</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>use published slot. Default is true if not in liveEdit/preview mode.</description>
+            <name>published</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>use json instead of html. Default is false.</description>
+            <name>json</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <tag>
+        <description>Renders an amplience slot</description>
+        <name>ampSlotKey</name>
+        <tag-class>de.neteleven.amplience.addon.tags.AmpSlotTag</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <description>the delivery key</description>
+            <name>key</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>use published slot. Default is true if not in liveEdit/preview mode.</description>
+            <name>published</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>use json instead of html. Default is false.</description>
+            <name>json</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+</taglib>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="smarteditwebservicesspring" name="smarteditwebservicesspring" removed="false">
+          <dependency>webservicescommonsspring==webservicescommons</dependency>
+          <dependency>cmsfacadesspring==cmsfacades</dependency>
+          <dependency>oauth2spring==oauth2</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/web/webroot/WEB-INF/config/security-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/resources/smarteditwebservices-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/web/webroot/WEB-INF/config/cache-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/web/webroot/WEB-INF/smarteditwebservices-web-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/web/webroot/WEB-INF/config/field-mapping-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/web/webroot/WEB-INF/config/interceptor-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/web/webroot/WEB-INF/config/error-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/resources/webservicescommons/commons-security-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/web/webroot" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/web/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/smartedit/smarteditwebservices/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="webservicescommons" exported="" />
+    <orderEntry type="module" module-name="cmsfacades" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

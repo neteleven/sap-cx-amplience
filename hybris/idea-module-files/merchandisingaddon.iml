@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="merchandisingaddonspring" name="merchandisingaddonspring" removed="false">
+          <dependency>merchandisingservicesspring==merchandisingservices</dependency>
+          <dependency>addonsupportspring==addonsupport</dependency>
+          <dependency>npmancillaryspring==npmancillary</dependency>
+          <dependency>apiregistryservicesspring==apiregistryservices</dependency>
+          <dependency>profiletagaddonspring==profiletagaddon</dependency>
+          <dependency>acceleratorstorefrontcommonsspring==acceleratorstorefrontcommons</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/resources/merchandisingaddon-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/cds-merchandising/merchandisingaddon/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="merchandisingservices" exported="" />
+    <orderEntry type="module" module-name="addonsupport" exported="" />
+    <orderEntry type="module" module-name="npmancillary" exported="" />
+    <orderEntry type="module" module-name="apiregistryservices" exported="" />
+    <orderEntry type="module" module-name="profiletagaddon" exported="" />
+    <orderEntry type="module" module-name="acceleratorstorefrontcommons" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

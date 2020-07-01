@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="personalizationpromotionssmarteditspring" name="personalizationpromotionssmarteditspring" removed="false">
+          <dependency>platformspring==platform</dependency>
+          <dependency>personalizationsmarteditspring==personalizationsmartedit</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/web/webroot/WEB-INF/personalizationpromotionssmartedit-web-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/resources/personalizationpromotionssmartedit-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/web/webroot/WEB-INF/config/security-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/web/webroot" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionssmartedit/bin/personalizationpromotionssmarteditserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="platform" exported="" />
+    <orderEntry type="module" module-name="personalizationsmartedit" exported="" />
+  </component>
+</module>

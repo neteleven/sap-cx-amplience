@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="webservicescommonsspring" name="webservicescommonsspring" removed="false">
+          <dependency>tomcatembeddedserverspring==tomcatembeddedserver</dependency>
+          <dependency>platformservicesspring==platformservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/resources/webservicescommons-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/bin/webservicescommonsserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/web-services-commons/webservicescommons/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="tomcatembeddedserver" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

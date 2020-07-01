@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="electronicsstorespring" name="electronicsstorespring" removed="false">
+          <dependency>acceleratorservicesspring==acceleratorservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/resources/electronicsstore-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/b2c-accelerator/electronicsstore/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="acceleratorservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="promotionengineservicesspring" name="promotionengineservicesspring" removed="false">
+          <dependency>ruledefinitionsspring==ruledefinitions</dependency>
+          <dependency>promotionsspring==promotions</dependency>
+          <dependency>droolsruleengineservicesspring==droolsruleengineservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/resources/promotionengineservices-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/resources/promotionengineservices-compiler-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/bin/promotionengineservicesserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/promotion-engine/promotionengineservices/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="ruledefinitions" exported="" />
+    <orderEntry type="module" module-name="promotions" exported="" />
+    <orderEntry type="module" module-name="droolsruleengineservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

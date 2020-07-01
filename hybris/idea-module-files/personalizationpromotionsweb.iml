@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="personalizationpromotionswebspring" name="personalizationpromotionswebspring" removed="false">
+          <dependency>personalizationwebservicesspring==personalizationwebservices</dependency>
+          <dependency>personalizationpromotionsspring==personalizationpromotions</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/resources/personalizationpromotionsweb-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/personalization-promotion/personalizationpromotionsweb/bin/personalizationpromotionswebserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="personalizationwebservices" exported="" />
+    <orderEntry type="module" module-name="personalizationpromotions" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

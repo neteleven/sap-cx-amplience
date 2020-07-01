@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="backofficesolrsearchspring" name="backofficesolrsearchspring" removed="false">
+          <dependency>backofficespring==backoffice</dependency>
+          <dependency>solrfacetsearchbackofficespring==solrfacetsearchbackoffice</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/resources/backofficesolrsearch-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/backoffice-framework/backofficesolrsearch/bin/backofficesolrsearchserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="backoffice" exported="" />
+    <orderEntry type="module" module-name="solrfacetsearchbackoffice" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="npmancillaryspring" name="npmancillaryspring" removed="false">
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/web/webroot/WEB-INF/npmancillary-web-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/web/webroot" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/resources" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/npm-ancillary/npmancillary/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

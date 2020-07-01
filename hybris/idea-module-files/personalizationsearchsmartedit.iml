@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="personalizationsearchsmarteditspring" name="personalizationsearchsmarteditspring" removed="false">
+          <dependency>platformspring==platform</dependency>
+          <dependency>smarteditspring==smartedit</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/resources/personalizationsearchsmartedit-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/web/webroot/WEB-INF/config/security-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/web/webroot/WEB-INF/personalizationsearchsmartedit-web-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/web/webroot" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/personalization-search/personalizationsearchsmartedit/bin/personalizationsearchsmarteditserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="platform" exported="" />
+    <orderEntry type="module" module-name="smartedit" exported="" />
+  </component>
+</module>

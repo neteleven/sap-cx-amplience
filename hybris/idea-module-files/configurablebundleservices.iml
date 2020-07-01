@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="configurablebundleservicesspring" name="configurablebundleservicesspring" removed="false">
+          <dependency>commerceservicesspring==commerceservices</dependency>
+          <dependency>cms2spring==cms2</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/resources/configurablebundleservices-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/configurable-bundle/configurablebundleservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="commerceservices" exported="" />
+    <orderEntry type="module" module-name="cms2" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

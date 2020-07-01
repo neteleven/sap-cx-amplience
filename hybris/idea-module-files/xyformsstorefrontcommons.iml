@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="xyformsstorefrontcommonsspring" name="xyformsstorefrontcommonsspring" removed="false">
+          <dependency>xyformsfacadesspring==xyformsfacades</dependency>
+          <dependency>addonsupportspring==addonsupport</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/resources/xyformsstorefrontcommons-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/yforms/xyformsstorefrontcommons/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="xyformsfacades" exported="" />
+    <orderEntry type="module" module-name="addonsupport" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

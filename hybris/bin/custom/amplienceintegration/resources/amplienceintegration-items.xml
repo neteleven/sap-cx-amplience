@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  ~ Copyright (c) 2020. neteleven GmbH (https://www.neteleven.de/)
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="items.xsd">
+
+    <enumtypes>
+        <enumtype code="WebhookType">
+            <value code="UPDATE"/>
+            <value code="PUBLISH"/>
+            <value code="EDITION"/>
+            <value code="DELETE"/>
+        </enumtype>
+    </enumtypes>
+
+    <relations>
+        <relation code="AmpWebhook2Request" localized="false">
+            <sourceElement qualifier="webhook" type="AmpWebhook" cardinality="one"/>
+            <targetElement qualifier="requests" type="AmpWebhookRequest" cardinality="many">
+                <modifiers partof="true"/>
+            </targetElement>
+        </relation>
+
+        <relation code="AmpWebhook2Slot" localized="false">
+            <sourceElement qualifier="webhook" type="AmpWebhook" cardinality="one"/>
+            <targetElement qualifier="slots" type="AmpSlot" cardinality="many"/>
+        </relation>
+
+        <relation code="AmpWebhooks2ContentTypes" localized="false">
+            <deployment table="amphooks2types" typecode="23400"/>
+            <sourceElement qualifier="webhooks" type="AmpWebhook" cardinality="many"/>
+            <targetElement qualifier="contentTypes" type="AmpContentType" cardinality="many"/>
+        </relation>
+
+        <relation code="AmpWebhooks2CMSSites" localized="false">
+            <deployment table="amphooks2cmssites" typecode="23401"/>
+            <sourceElement qualifier="webhooks" type="AmpWebhook" cardinality="many">
+                <modifiers read="false" write="false"/>
+            </sourceElement>
+            <targetElement qualifier="sites" type="CMSSite" cardinality="many"/>
+        </relation>
+
+        <relation code="AmpWebhooks2LocaleMappings" localized="false">
+            <deployment table="amphooks2localemappings" typecode="23402"/>
+            <sourceElement qualifier="webhooks" type="AmpWebhook" cardinality="many"/>
+            <targetElement qualifier="localeMappings" type="AmpLocaleMapping" cardinality="many"/>
+        </relation>
+
+        <relation code="AmpContentType2Slot" localized="false">
+            <sourceElement qualifier="contentType" type="AmpContentType" cardinality="one"/>
+            <targetElement qualifier="slots" type="AmpSlot" cardinality="many"/>
+        </relation>
+    </relations>
+
+    <itemtypes>
+        <itemtype code="AmpWebhook">
+            <description>Webhook Endpoint</description>
+            <deployment table="amphooks" typecode="23500"/>
+            <attributes>
+                <attribute qualifier="uri" type="java.lang.String">
+                    <modifiers initial="true" optional="false" unique="true"/>
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="secret" type="java.lang.String">
+                    <modifiers initial="true" optional="false"/>
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="validateSecret" type="java.lang.Boolean">
+                    <modifiers initial="true" optional="false"/>
+                    <persistence type="property"/>
+                    <defaultvalue>java.lang.Boolean.TRUE</defaultvalue>
+                </attribute>
+                <attribute qualifier="apiVSE" type="java.lang.String">
+                    <description>API for the virtual staging environment</description>
+                    <modifiers initial="true" optional="false"/>
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="endpoint" type="java.lang.String">
+                    <modifiers initial="true" optional="false"/>
+                    <persistence type="property"/>
+                </attribute>
+            </attributes>
+        </itemtype>
+
+        <itemtype code="AmpContentType">
+            <description>Handles Content Types from Amplience</description>
+            <deployment table="amptypes" typecode="23501"/>
+            <attributes>
+                <attribute qualifier="uri" type="java.lang.String">
+                    <modifiers initial="true" optional="false" unique="true"/>
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="template" type="java.lang.String">
+                    <modifiers initial="true" optional="false"/>
+                    <persistence type="property"/>
+                </attribute>
+            </attributes>
+        </itemtype>
+
+        <itemtype code="AmpWebhookRequest">
+            <description>Pending Webhook Request</description>
+            <deployment table="amphookreqs" typecode="23502"/>
+            <attributes>
+                <attribute qualifier="id" type="java.lang.String">
+                    <modifiers initial="true" optional="false" unique="true"/>
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="type" type="WebhookType">
+                    <modifiers initial="true" optional="false"/>
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="json" type="java.lang.String">
+                    <persistence type="property">
+                        <columntype>
+                            <value>HYBRIS.JSON</value>
+                        </columntype>
+                    </persistence>
+                </attribute>
+            </attributes>
+        </itemtype>
+
+        <itemtype code="AmpSlot">
+            <description>Slot representation from Amplience</description>
+            <deployment table="ampslots" typecode="23503"/>
+            <attributes>
+                <attribute qualifier="id" type="java.lang.String">
+                    <modifiers initial="true" optional="false" unique="true"/>
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="name" type="java.lang.String">
+                    <persistence type="property">
+                        <columntype>
+                            <value>HYBRIS.LONG_STRING</value>
+                        </columntype>
+                    </persistence>
+                </attribute>
+                <attribute qualifier="deliveryKey" type="java.lang.String">
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="version" type="java.lang.Integer">
+                    <modifiers initial="true" optional="false" unique="true"/>
+                    <persistence type="property"/>
+                    <defaultvalue>java.lang.Integer.valueOf(1)</defaultvalue>
+                </attribute>
+                <attribute qualifier="published" type="java.lang.Boolean">
+                    <modifiers initial="true" optional="false" unique="true"/>
+                    <persistence type="property"/>
+                    <defaultvalue>java.lang.Boolean.FALSE</defaultvalue>
+                </attribute>
+                <attribute qualifier="editionId" type="java.lang.String">
+                    <modifiers initial="true" optional="true"/>
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="editionStart" type="java.util.Date">
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="editionEnd" type="java.util.Date">
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="position" type="java.lang.String">
+                    <modifiers initial="true" optional="false"/>
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="context" type="java.lang.String">
+                    <modifiers initial="true" optional="false"/>
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="lookup" type="java.lang.String">
+                    <modifiers initial="true" optional="false"/>
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="html" type="localized:java.lang.String">
+                    <persistence type="property">
+                        <columntype>
+                            <value>HYBRIS.JSON</value>
+                        </columntype>
+                    </persistence>
+                </attribute>
+                <attribute qualifier="json" type="localized:java.lang.String">
+                    <persistence type="property">
+                        <columntype>
+                            <value>HYBRIS.JSON</value>
+                        </columntype>
+                    </persistence>
+                </attribute>
+            </attributes>
+            <indexes>
+                <index name="ididx">
+                    <key attribute="id"/>
+                </index>
+                <index name="idedidx">
+                    <key attribute="id"/>
+                    <key attribute="editionId"/>
+                </index>
+                <index name="idpubidx">
+                    <key attribute="id"/>
+                    <key attribute="published"/>
+                </index>
+                <index name="idedpubidx">
+                    <key attribute="id"/>
+                    <key attribute="editionId"/>
+                    <key attribute="published"/>
+                </index>
+                <index name="edidx">
+                    <key attribute="editionId"/>
+                </index>
+                <index name="delkeyidx">
+                    <key attribute="deliveryKey"/>
+                </index>
+                <index name="posctxlookidx">
+                    <key attribute="position"/>
+                    <key attribute="context"/>
+                    <key attribute="lookup"/>
+                </index>
+                <index name="posctxlookpubidx">
+                    <key attribute="position"/>
+                    <key attribute="context"/>
+                    <key attribute="lookup"/>
+                    <key attribute="published"/>
+                </index>
+            </indexes>
+        </itemtype>
+
+        <itemtype code="AmpLocaleMapping">
+            <description>Locale mapping between Amplience and Hybris, e.g. de-DE -> de</description>
+            <deployment table="amplocalemapping" typecode="23504"/>
+            <attributes>
+                <attribute qualifier="ampLocale" type="java.lang.String">
+                    <modifiers initial="true" optional="false"/>
+                    <persistence type="property"/>
+                </attribute>
+                <attribute qualifier="locale" type="java.lang.String">
+                    <modifiers initial="true" optional="false"/>
+                    <persistence type="property"/>
+                </attribute>
+            </attributes>
+        </itemtype>
+
+    </itemtypes>
+</items>

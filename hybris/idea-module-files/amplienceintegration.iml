@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="CUSTOM" importedAsReadOnly="false" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="amplienceintegrationspring" name="amplienceintegrationspring" removed="false">
+          <dependency>cms2spring==cms2</dependency>
+          <dependency>backofficespring==backoffice</dependency>
+          <file>file://$MODULE_DIR$/../bin/custom/amplienceintegration/resources/amplienceintegration-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/custom/amplienceintegration/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/custom/amplienceintegration/web/webroot/WEB-INF/config/amplienceintegration-web-app-config.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/web/webroot" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/src" />
+          <root url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/gensrc" />
+          <root url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/resources" />
+          <root url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/web/src" />
+          <root url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/web/gensrc" />
+          <root url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/commonweb/src" />
+          <root url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/commonweb/gensrc" />
+          <root url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/acceleratoraddon/web/src" />
+          <root url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/acceleratoraddon/web/gensrc" />
+          <root url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/backoffice/src" />
+          <root url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/backoffice/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="JRebel" name="JRebel">
+      <configuration>
+        <option name="ideModuleStorage">
+          <map>
+            <entry key="com.zeroturnaround.jrebel.FormatVersion" value="7.0.0" />
+            <entry key="com.zeroturnaround.jrebel.remoting.DeleteUnindexedFiles" value="false" />
+            <entry key="com.zeroturnaround.jrebel.remoting.ModuleRemoteServerSelection" value="off" />
+            <entry key="com.zeroturnaround.jrebel.remoting.ModuleSpecificSingleRemoteServer" />
+            <entry key="jrebelEnabled" value="true" />
+            <entry key="lastExternalPluginCheckTime" value="1591431316234" />
+          </map>
+        </option>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/classes" />
+    <output-test url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/classes" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/custom/amplienceintegration">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/commonweb/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/commonweb/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/acceleratoraddon/web/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/acceleratoraddon/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/backoffice/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/backoffice/testsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/backoffice/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/web/webroot/WEB-INF/classes" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/custom/amplienceintegration/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="cms2" exported="" />
+    <orderEntry type="module" module-name="backoffice" exported="" />
+  </component>
+</module>

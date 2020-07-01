@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="ticketsystemspring" name="ticketsystemspring" removed="false">
+          <dependency>commerceservicesspring==commerceservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/resources/ticketsystem/ticketsystem-spring-interceptors.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/resources/ticketsystem-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/resources/ticketsystem/ticketsystem-spring-services.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/customer-service/ticketsystem/bin/ticketsystemserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="commerceservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

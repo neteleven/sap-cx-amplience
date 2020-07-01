@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="yacceleratorfulfilmentprocessspring" name="yacceleratorfulfilmentprocessspring" removed="false">
+          <dependency>acceleratorservicesspring==acceleratorservices</dependency>
+          <dependency>ticketsystemspring==ticketsystem</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/resources/yacceleratorfulfilmentprocess/process/return-process-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/resources/yacceleratorfulfilmentprocess/process/consignment-process-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/resources/yacceleratorfulfilmentprocess/process/order-process-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/resources/yacceleratorfulfilmentprocess-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/base-accelerator/yacceleratorfulfilmentprocess/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="acceleratorservices" exported="" />
+    <orderEntry type="module" module-name="ticketsystem" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

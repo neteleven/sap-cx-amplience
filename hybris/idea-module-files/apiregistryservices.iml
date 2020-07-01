@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="apiregistryservicesspring" name="apiregistryservicesspring" removed="false">
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/resources/apiregistryservices-cache-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/resources/apiregistryservices-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/api-registry/apiregistryservices/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

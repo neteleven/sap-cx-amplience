@@ -1,0 +1,8 @@
+INSERT_UPDATE ServicelayerJob; code[unique = true]               ; springId
+                             ; processAmplienceWebhookRequestJob ; processAmplienceWebhookRequestJob
+
+INSERT_UPDATE CronJob; code[unique = true]                   ; job(code)                         ; singleExecutable; sessionLanguage(isocode)
+                     ; processAmplienceWebhookRequestCronJob ; processAmplienceWebhookRequestJob ; false           ; en
+
+INSERT_UPDATE Trigger; cronjob(code)[unique = true]          ; active; relative; second; minute; hour
+                     ; processAmplienceWebhookRequestCronJob ; true  ; true    ; 10    ;       ;

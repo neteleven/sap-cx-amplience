@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="PLATFORM" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="platformspring" name="platformspring" removed="false">
+          <dependency>commentsspring==comments</dependency>
+          <dependency>mediawebspring==mediaweb</dependency>
+          <dependency>paymentstandardspring==paymentstandard</dependency>
+          <dependency>validationspring==validation</dependency>
+          <dependency>deliveryzonespring==deliveryzone</dependency>
+          <dependency>oauth2spring==oauth2</dependency>
+          <dependency>catalogspring==catalog</dependency>
+          <dependency>corespring==core</dependency>
+          <dependency>commonsspring==commons</dependency>
+          <dependency>advancedsavedqueryspring==advancedsavedquery</dependency>
+          <dependency>scriptingspring==scripting</dependency>
+          <dependency>maintenancewebspring==maintenanceweb</dependency>
+          <dependency>testwebspring==testweb</dependency>
+          <dependency>processingspring==processing</dependency>
+          <dependency>impexspring==impex</dependency>
+          <dependency>europe1spring==europe1</dependency>
+          <dependency>workflowspring==workflow</dependency>
+          <dependency>platformservicesspring==platformservices</dependency>
+          <dependency>configspring==config</dependency>
+          <dependency>hacspring==hac</dependency>
+          <file>file://$MODULE_DIR$/../bin/platform/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/platform/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/platform/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/platform">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/platform/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/platform/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/platform/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/platform/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/platform/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/platform/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/bootstrap/modelclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/tomcat" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/platform/web/testclasses" />
+      <excludePattern pattern="apache-ant-*" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/platform/lib/dbdriver" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/platform/lib/dbdriver" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="comments" exported="" />
+    <orderEntry type="module" module-name="mediaweb" exported="" />
+    <orderEntry type="module" module-name="paymentstandard" exported="" />
+    <orderEntry type="module" module-name="validation" exported="" />
+    <orderEntry type="module" module-name="deliveryzone" exported="" />
+    <orderEntry type="module" module-name="oauth2" exported="" />
+    <orderEntry type="module" module-name="catalog" exported="" />
+    <orderEntry type="module" module-name="core" exported="" />
+    <orderEntry type="module" module-name="commons" exported="" />
+    <orderEntry type="module" module-name="advancedsavedquery" exported="" />
+    <orderEntry type="module" module-name="scripting" exported="" />
+    <orderEntry type="module" module-name="maintenanceweb" exported="" />
+    <orderEntry type="module" module-name="testweb" exported="" />
+    <orderEntry type="module" module-name="processing" exported="" />
+    <orderEntry type="module" module-name="impex" exported="" />
+    <orderEntry type="module" module-name="europe1" exported="" />
+    <orderEntry type="module" module-name="workflow" exported="" />
+    <orderEntry type="module" module-name="platformservices" exported="" />
+    <orderEntry type="module" module-name="config" exported="" />
+    <orderEntry type="module" module-name="hac" exported="" />
+  </component>
+</module>

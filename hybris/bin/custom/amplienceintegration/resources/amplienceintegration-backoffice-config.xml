@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  ~ This file is part of the Amplience SAP CX integration, originally developed
+  ~ by neteleven GmbH in 2020.
+  ~
+  ~ The Amplience SAP CX integration is free software: you can redistribute it and
+  ~ /or modify it under the terms of the GNU Lesser General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ The Amplience SAP CX integration is distributed in the hope that it will be
+  ~ useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General
+  ~ Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Lesser General Public License along
+  ~ with the Amplience SAP CX integration.
+  ~
+  ~ If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.hybris.com/cockpit/config"
+        xsi:schemaLocation="http://www.hybris.com/cockpit/config
+        http://www.hybris.com/schema/cockpitng/config/cockpit-configuration.xsd">
+
+    <context merge-by="module" parent="auto" component="explorer-tree">
+        <n:explorer-tree xmlns:n="http://www.hybris.com/cockpitng/config/explorertree">
+            <n:navigation-node id="hmc_treenode_amplience">
+                <n:type-node id="AmpWebhook" code="AmpWebhook"/>
+                <n:type-node id="AmpContentType" code="AmpContentType"/>
+                <n:type-node id="AmpWebhookRequest" code="AmpWebhookRequest"/>
+                <n:type-node id="AmpSlot" code="AmpSlot"/>
+                <n:type-node id="AmpLocaleMapping" code="AmpLocaleMapping"/>
+            </n:navigation-node>
+        </n:explorer-tree>
+    </context>
+
+    <context type="AmpWebhook">
+        <context component="simple-search">
+            <simple-search:simple-search xmlns:simple-search="http://www.hybris.com/cockpitng/config/simplesearch">
+                <simple-search:field name="uri"/>
+                <simple-search:field name="apiVSE"/>
+                <simple-search:field name="endpoint"/>
+            </simple-search:simple-search>
+        </context>
+
+        <context component="advanced-search">
+            <advanced-search:advanced-search xmlns:advanced-search="http://www.hybris.com/cockpitng/config/advancedsearch">
+                <advanced-search:field-list>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="uri" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="contentTypes" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="localeMappings" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="sites" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" editor="com.hybris.cockpitng.editor.defaultlong" name="pk" selected="false"/>
+                </advanced-search:field-list>
+            </advanced-search:advanced-search>
+        </context>
+
+        <context component="listview">
+            <list:list-view xmlns:list="http://www.hybris.com/cockpitng/component/listView">
+                <list:column qualifier="uri"/>
+                <list:column qualifier="sites"/>
+            </list:list-view>
+        </context>
+
+        <context component="editor-area" merge-by="type">
+            <editorArea:editorArea xmlns:editorArea="http://www.hybris.com/cockpitng/component/editorArea">
+                <editorArea:tab name="hmc.properties">
+                    <editorArea:section name="hmc.properties">
+                        <editorArea:attribute qualifier="uri"/>
+                        <editorArea:attribute qualifier="secret"/>
+                        <editorArea:attribute qualifier="validateSecret"/>
+                    </editorArea:section>
+                    <editorArea:section name="hmc.api">
+                        <editorArea:attribute qualifier="apiVSE"/>
+                        <editorArea:attribute qualifier="endpoint"/>
+                    </editorArea:section>
+                    <editorArea:section name="hmc.mapping">
+                        <editorArea:attribute qualifier="contentTypes"/>
+                        <editorArea:attribute qualifier="localeMappings"/>
+                        <editorArea:attribute qualifier="sites"/>
+                    </editorArea:section>
+                    <editorArea:section name="hmc.references">
+                        <editorArea:attribute qualifier="requests"/>
+                        <editorArea:attribute qualifier="slots"/>
+                    </editorArea:section>
+                </editorArea:tab>
+            </editorArea:editorArea>
+        </context>
+
+        <context component="base" merge-by="type">
+            <y:base xmlns:y="http://www.hybris.com/cockpit/config/hybris">
+                <y:labels>
+                    <y:label>uri</y:label>
+                </y:labels>
+            </y:base>
+        </context>
+    </context>
+
+    <context type="AmpContentType">
+        <context component="simple-search">
+            <simple-search:simple-search xmlns:simple-search="http://www.hybris.com/cockpitng/config/simplesearch">
+                <simple-search:field name="uri"/>
+                <simple-search:field name="template"/>
+            </simple-search:simple-search>
+        </context>
+
+        <context component="advanced-search">
+            <advanced-search:advanced-search xmlns:advanced-search="http://www.hybris.com/cockpitng/config/advancedsearch">
+                <advanced-search:field-list>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="uri" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="template" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" editor="com.hybris.cockpitng.editor.defaultlong" name="pk" selected="false"/>
+                </advanced-search:field-list>
+            </advanced-search:advanced-search>
+        </context>
+
+        <context component="listview">
+            <list:list-view xmlns:list="http://www.hybris.com/cockpitng/component/listView">
+                <list:column qualifier="uri"/>
+                <list:column qualifier="template"/>
+            </list:list-view>
+        </context>
+
+        <context component="editor-area" merge-by="type">
+            <editorArea:editorArea xmlns:editorArea="http://www.hybris.com/cockpitng/component/editorArea">
+                <editorArea:tab name="hmc.properties">
+                    <editorArea:section name="hmc.properties">
+                        <editorArea:attribute qualifier="uri"/>
+                        <editorArea:attribute qualifier="template"/>
+                    </editorArea:section>
+                    <editorArea:section name="hmc.references">
+                        <editorArea:attribute qualifier="webhooks"/>
+                        <editorArea:attribute qualifier="slots"/>
+                    </editorArea:section>
+                </editorArea:tab>
+            </editorArea:editorArea>
+        </context>
+
+        <context component="base" merge-by="type">
+            <y:base xmlns:y="http://www.hybris.com/cockpit/config/hybris">
+                <y:labels>
+                    <y:label>uri</y:label>
+                </y:labels>
+            </y:base>
+        </context>
+    </context>
+
+    <context type="AmpWebhookRequest">
+        <context component="simple-search">
+            <simple-search:simple-search xmlns:simple-search="http://www.hybris.com/cockpitng/config/simplesearch">
+                <simple-search:field name="id"/>
+                <simple-search:field name="type"/>
+            </simple-search:simple-search>
+        </context>
+
+        <context component="advanced-search">
+            <advanced-search:advanced-search xmlns:advanced-search="http://www.hybris.com/cockpitng/config/advancedsearch">
+                <advanced-search:field-list>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="id" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="type" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="webhook" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" editor="com.hybris.cockpitng.editor.defaultlong" name="pk" selected="false"/>
+                </advanced-search:field-list>
+            </advanced-search:advanced-search>
+        </context>
+
+        <context component="listview">
+            <list:list-view xmlns:list="http://www.hybris.com/cockpitng/component/listView">
+                <list:column qualifier="id"/>
+                <list:column qualifier="type"/>
+            </list:list-view>
+        </context>
+
+        <context component="editor-area" merge-by="type">
+            <editorArea:editorArea xmlns:editorArea="http://www.hybris.com/cockpitng/component/editorArea">
+                <editorArea:tab name="hmc.properties">
+                    <editorArea:section name="hmc.properties">
+                        <editorArea:attribute qualifier="id"/>
+                        <editorArea:attribute qualifier="type"/>
+                    </editorArea:section>
+                    <editorArea:section name="hmc.content">
+                        <editorArea:attribute qualifier="json" editor="com.hybris.cockpitng.editor.defaulttext">
+                            <editorArea:editor-parameter>
+                                <editorArea:name>multilineEditorRows</editorArea:name>
+                                <editorArea:value>20</editorArea:value>
+                            </editorArea:editor-parameter>
+                        </editorArea:attribute>
+                    </editorArea:section>
+                    <editorArea:section name="hmc.references">
+                        <editorArea:attribute qualifier="webhook"/>
+                    </editorArea:section>
+                </editorArea:tab>
+            </editorArea:editorArea>
+        </context>
+
+        <context component="base" merge-by="type">
+            <y:base xmlns:y="http://www.hybris.com/cockpit/config/hybris">
+                <y:labels>
+                    <y:label>id + ' (' + type + ')'</y:label>
+                </y:labels>
+            </y:base>
+        </context>
+    </context>
+
+    <context type="AmpSlot">
+        <context component="simple-search">
+            <simple-search:simple-search xmlns:simple-search="http://www.hybris.com/cockpitng/config/simplesearch">
+                <simple-search:field name="id"/>
+                <simple-search:field name="deliveryKey"/>
+                <simple-search:field name="editionId"/>
+                <simple-search:field name="position"/>
+                <simple-search:field name="context"/>
+                <simple-search:field name="lookup"/>
+            </simple-search:simple-search>
+        </context>
+
+        <context component="advanced-search">
+            <advanced-search:advanced-search xmlns:advanced-search="http://www.hybris.com/cockpitng/config/advancedsearch">
+                <advanced-search:field-list>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="id" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="position" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="context" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="lookup" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="deliveryKey" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="editionId" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="editionStart" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="editionEnd" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="webhook" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="contentType" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="version" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="published" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" editor="com.hybris.cockpitng.editor.defaultlong" name="pk" selected="false"/>
+                </advanced-search:field-list>
+            </advanced-search:advanced-search>
+        </context>
+
+        <context component="listview">
+            <list:list-view xmlns:list="http://www.hybris.com/cockpitng/component/listView">
+                <list:column qualifier="id"/>
+                <list:column qualifier="name"/>
+                <list:column qualifier="position"/>
+                <list:column qualifier="context"/>
+                <list:column qualifier="lookup"/>
+                <list:column qualifier="deliveryKey"/>
+                <list:column qualifier="version"/>
+                <list:column qualifier="published"/>
+                <list:column qualifier="editionId"/>
+                <list:column qualifier="editionStart"/>
+                <list:column qualifier="editionEnd"/>
+            </list:list-view>
+        </context>
+
+        <context component="editor-area" merge-by="type">
+            <editorArea:editorArea xmlns:editorArea="http://www.hybris.com/cockpitng/component/editorArea">
+                <editorArea:tab name="hmc.properties">
+                    <editorArea:section name="hmc.properties">
+                        <editorArea:attribute qualifier="id"/>
+                        <editorArea:attribute qualifier="name"/>
+                        <editorArea:attribute qualifier="version"/>
+                        <editorArea:attribute qualifier="published"/>
+                    </editorArea:section>
+                    <editorArea:section name="hmc.lookup">
+                        <editorArea:attribute qualifier="position"/>
+                        <editorArea:attribute qualifier="context"/>
+                        <editorArea:attribute qualifier="lookup"/>
+                        <editorArea:attribute qualifier="deliveryKey"/>
+                    </editorArea:section>
+                    <editorArea:section name="hmc.edition">
+                        <editorArea:attribute qualifier="editionId"/>
+                        <editorArea:attribute qualifier="editionStart"/>
+                        <editorArea:attribute qualifier="editionEnd"/>
+                    </editorArea:section>
+                    <editorArea:section name="hmc.content">
+                        <editorArea:attribute qualifier="html" editor="com.hybris.cockpitng.editor.localized(com.hybris.cockpitng.editor.defaulttext)">
+                            <editorArea:editor-parameter>
+                                <editorArea:name>multilineEditorRows</editorArea:name>
+                                <editorArea:value>20</editorArea:value>
+                            </editorArea:editor-parameter>
+                        </editorArea:attribute>
+                        <editorArea:attribute qualifier="json" editor="com.hybris.cockpitng.editor.localized(com.hybris.cockpitng.editor.defaulttext)">
+                            <editorArea:editor-parameter>
+                                <editorArea:name>multilineEditorRows</editorArea:name>
+                                <editorArea:value>20</editorArea:value>
+                            </editorArea:editor-parameter>
+                        </editorArea:attribute>
+                    </editorArea:section>
+                    <editorArea:section name="hmc.references">
+                        <editorArea:attribute qualifier="webhook"/>
+                        <editorArea:attribute qualifier="contentType"/>
+                    </editorArea:section>
+                </editorArea:tab>
+            </editorArea:editorArea>
+        </context>
+
+        <context component="base" merge-by="type">
+            <y:base xmlns:y="http://www.hybris.com/cockpit/config/hybris">
+                <y:labels>
+                    <y:label>id + ' ' + name + ' (v' + version + ')'</y:label>
+                </y:labels>
+            </y:base>
+        </context>
+    </context>
+
+    <context type="AmpLocaleMapping">
+        <context component="simple-search">
+            <simple-search:simple-search xmlns:simple-search="http://www.hybris.com/cockpitng/config/simplesearch">
+                <simple-search:field name="ampLocale"/>
+                <simple-search:field name="locale"/>
+            </simple-search:simple-search>
+        </context>
+
+        <context component="advanced-search">
+            <advanced-search:advanced-search xmlns:advanced-search="http://www.hybris.com/cockpitng/config/advancedsearch">
+                <advanced-search:field-list>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="ampLocale" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="locale" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" name="webhooks" selected="false"/>
+                    <advanced-search:field xmlns="http://www.hybris.com/cockpitng/config/advancedsearch" editor="com.hybris.cockpitng.editor.defaultlong" name="pk" selected="false"/>
+                </advanced-search:field-list>
+            </advanced-search:advanced-search>
+        </context>
+
+        <context component="listview">
+            <list:list-view xmlns:list="http://www.hybris.com/cockpitng/component/listView">
+                <list:column qualifier="ampLocale"/>
+                <list:column qualifier="locale"/>
+            </list:list-view>
+        </context>
+
+        <context component="editor-area" merge-by="type">
+            <editorArea:editorArea xmlns:editorArea="http://www.hybris.com/cockpitng/component/editorArea">
+                <editorArea:tab name="hmc.properties">
+                    <editorArea:section name="hmc.properties">
+                        <editorArea:attribute qualifier="ampLocale"/>
+                        <editorArea:attribute qualifier="locale"/>
+                    </editorArea:section>
+                    <editorArea:section name="hmc.references">
+                        <editorArea:attribute qualifier="webhooks"/>
+                    </editorArea:section>
+                </editorArea:tab>
+            </editorArea:editorArea>
+        </context>
+
+        <context component="base" merge-by="type">
+            <y:base xmlns:y="http://www.hybris.com/cockpit/config/hybris">
+                <y:labels>
+                    <y:label>ampLocale + ' -> ' + locale</y:label>
+                </y:labels>
+            </y:base>
+        </context>
+    </context>
+
+</config>

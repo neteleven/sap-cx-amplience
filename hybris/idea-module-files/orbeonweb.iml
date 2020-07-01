@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="orbeonwebspring" name="orbeonwebspring" removed="false">
+          <dependency>acceleratorservicesspring==acceleratorservices</dependency>
+          <dependency>xyformsservicesspring==xyformsservices</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/resources/orbeonweb-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/web/webroot/WEB-INF/orbeonweb-web-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/web/webroot/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/web/webroot" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/web/webroot/WEB-INF/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/web/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/web/webroot/WEB-INF/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/yforms/orbeonweb/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="acceleratorservices" exported="" />
+    <orderEntry type="module" module-name="xyformsservices" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

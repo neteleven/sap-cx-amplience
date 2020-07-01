@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="cms2libspring" name="cms2libspring" removed="false">
+          <dependency>cms2spring==cms2</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/resources/cms2lib-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/project.properties</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../bin/modules/web-content-management-system/cms2lib/bin/cms2libserver.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="cms2" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>

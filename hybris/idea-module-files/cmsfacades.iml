@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module descriptorType="OOTB" importedAsReadOnly="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="cmsfacadesspring" name="cmsfacadesspring" removed="false">
+          <dependency>commercefacadesspring==commercefacades</dependency>
+          <dependency>cms2libspring==cms2lib</dependency>
+          <dependency>platformspring==platform</dependency>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-structuretypes-generic-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-rendering-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-attribute-predicate-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-structuretypes-populators-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-page-validator-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-structuretypes-registry-service-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-navigation-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-cmsitems-converters-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-rendering-validators-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-synchronization-collectors-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-synchronization-visitors-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-products-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-structuretypes-mode-service-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-structuretypes-registry-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-navigation-entry-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-cmsitem-properties-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-predicate-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-cmsitems-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-page-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-structuretypes-generic-blacklist-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-structuretypes-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-component-items-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-version-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-synchronization-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-rendering-suppliers-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-rendering-converters-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/project.properties</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/cmsfacades-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-media-container-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-structuretypes-generic-service-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-localization-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-structuretypes-mode-config-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-rendering-cache-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-uniqueidentifier-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-usergroup-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-user-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/cmsfacades-cache.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-validator-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-cmsitems-validators-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-restriction-spring.xml</file>
+          <file>file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources/config/cmsfacades-workflow-spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/eclipsebin" />
+    <output-test url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/eclipsebin" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://download.hybris.com/api/1905/commercesuite" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades">
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/commonweb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/commonweb/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/acceleratoraddon/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/acceleratoraddon/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/backoffice/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/acceleratoraddon/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/acceleratoraddon/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/acceleratoraddon/web/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/acceleratoraddon/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/acceleratoraddon/web/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/backoffice/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/commonweb/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/commonweb/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/commonweb/groovytestsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/commonweb/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/commonweb/testsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/web/addonsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/web/commonwebsrc" />
+      <excludeFolder url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/web/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/classes" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../bin/modules/web-content-management-system/cmsfacades/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="commercefacades" exported="" />
+    <orderEntry type="module" module-name="cms2lib" exported="" />
+    <orderEntry type="module" module-name="platform" exported="" />
+  </component>
+</module>
