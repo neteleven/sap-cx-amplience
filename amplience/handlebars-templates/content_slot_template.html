@@ -1,13 +1,13 @@
 {{#if content}}
-	<div id="main-content-container">
-		{{#each content}}
-			<section class="section-row">
-				{{#if text}}
-					<div class="section-text">
-						{{#markdown}}{{text}}{{/markdown}}
-					</div>
-				{{/if}}
-			</section>
-		{{/each}}
-	</div>
+<div id="main-content-container">
+  {{#each content}}
+  <section class="section-row">
+    {{#if text}}
+    <div class="section-text">
+      {{#markdown}}{{text}}{{/markdown}}
+    </div>
+    {{/if}}
+  </section>
+  {{/each}}
+</div>
 {{/if}}
