@@ -1,0 +1,62 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://github.com/neteleven/sap-cx-amplience/amplience/schemas/slot-example.json",
+
+	"title": "Content slot example",
+	"description": "Slot for the main content area of the page",
+
+	"allOf": [
+		{
+			"$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+		}
+	],
+	
+	"type": "object",
+	"properties": {
+		"_environment": {
+			"title": "Environment",
+  			"type": "object",
+            "properties": {
+				"slot": {
+					"allOf":[
+						{
+							"$ref": "https://github.com/neteleven/sap-cx-amplience/amplience/schemas/slot-definition.json#/definitions/slot"
+						},
+						{
+							"properties": 
+							{
+								"position":
+								{ 
+									"enum": [ "main-content-slot" ]
+								}
+							}
+						}
+					]
+				}
+			}
+		},
+
+		"content": {
+            "title": "Slot content",
+            "type": "array",
+			"minItems": 0,
+			"maxItems": 5,
+			"items": {
+                "allOf": [
+                    { 
+                        "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link" 
+                    },
+                    {
+                        "properties": {
+                            "contentType": {
+                                "enum": [
+                                    "https://github.com/neteleven/sap-cx-amplience/amplience/schemas/content-example.json"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+		}
+	}
+}
