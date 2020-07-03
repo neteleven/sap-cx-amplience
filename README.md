@@ -1,13 +1,13 @@
 # About
-Inegration of Amplience Dynamic Content into SAP CX (Hybris).
+Integration of Amplience Dynamic Content into SAP CX (Hybris).
 
-The goal is, to provide a simple and flexible way to lookup and integrate content into SAP CX,
-without too much assumptions on how the system is build. Thus, the integration is not a one click
-solution, but rather a base to build exactly what is needed.
+Goal of this project is to provide a simple and flexible way to retrieve and integrate content into SAP CX (Hybris/Commerce).
+This is done without too much assumptions on how the existing SAP CX System is constructed. 
+The project is kind of a basis to build exactly what you need, not a one click solution.
 
-The main idea is, that SAP CX gets triggered via webhooks about the creation or changes on slots.
-It then downloads all available information from the Amplience virtual staging environment,
-including the Slots JSON and prerendered HTML (from the content rendering service). As all internal
+The main idea of the integraiton is to trigger SAP CX via webhooks at the moment of creation or changes on slots.
+Then all available information is downloaded from the Amplience virtual staging environment,
+including the Slots JSON and prerendered HTML (from the content rendering service). Since all internal
 IDs are preserved, the user can build integrations that:
 * include prerendered HTML in a serverside rendered frontent (like JSPs)
 * output cached JSON in an own API
@@ -16,8 +16,8 @@ IDs are preserved, the user can build integrations that:
 The integration is capable of handling multiple localized websites/storefronts and even multiple Amplience
 content hubs.
 
-As there are only few dependencies on existing structures in SAP CX, it should fit nearly all project
-setups.
+As there are only few dependencies on existing structures and data models in SAP CX, it should fit nearly 
+for all project setups.
 
 This integration provides different components:
 * Hybris Extension `amplienceintegration` which provides webhook endpoints for events from Amplience
