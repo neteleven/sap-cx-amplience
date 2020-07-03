@@ -1,47 +1,47 @@
 {
-    "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-    "$id": "https://raw.githubusercontent.com/neteleven/sap-cx-amplience/master/amplience/schemas/slot-definition.json",
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "$id": "https://raw.githubusercontent.com/neteleven/sap-cx-amplience/master/amplience/schemas/slot-definition.json",
 
-    "definitions": {
-        "slot": {
-            "required": [
-                "position",
-                "context",
-                "lookup"
-            ],
-            "title": "SAP CX Slot",
-            "type": "object",
-            "properties": {
-                "position": {
-                    "$id": "position",
-                    "type": "string",
-                    "title": "position within SAP CX",
-                    "description": "used to lookup slot",
-                    "examples": [
-                        "main-slot"
-                    ]
-                },
-                "context": {
-                    "$id": "context",
-                    "type": "string",
-                    "title": "usage context",
-                    "description": "used to differentiate between e.g. pages and products",
-                    "enum": ["page", "category", "product"],
-                    "examples": [
-                        "page"
-                    ]
-                },
-                "lookup": {
-                    "$id": "lookup",
-                    "type": "string",
-                    "title": "additional lookup key",
-                    "description": "to be able to lookup e.g. pages by name or categories by code",
-                    "examples": [
-                        "homepage",
-                        "cat12345"
-                    ]
-                }
-            }
+  "definitions": {
+    "slot": {
+      "required": [
+        "position",
+        "context",
+        "lookup"
+      ],
+      "title": "SAP CX Slot",
+      "type": "object",
+      "properties": {
+        "position": {
+          "$id": "position",
+          "type": "string",
+          "title": "position within SAP CX",
+          "description": "used to lookup slot",
+          "examples": [
+            "main-slot"
+          ]
+        },
+        "context": {
+          "$id": "context",
+          "type": "string",
+          "title": "usage context",
+          "description": "used to differentiate between e.g. pages and products",
+          "enum": ["page", "category", "product"],
+          "examples": [
+            "page"
+          ]
+        },
+        "lookup": {
+          "$id": "lookup",
+          "type": "string",
+          "title": "additional lookup key",
+          "description": "to be able to lookup e.g. pages by name or categories by code",
+          "examples": [
+            "homepage",
+            "cat12345"
+          ]
         }
+      }
     }
+  }
 }
