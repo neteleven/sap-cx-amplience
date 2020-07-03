@@ -1,6 +1,6 @@
 {
     "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-    "$id": "https://github.com/neteleven/sap-cx-amplience/amplience/schemas/slot-definition.json",
+    "$id": "https://raw.githubusercontent.com/neteleven/sap-cx-amplience/master/amplience/schemas/slot-definition.json",
 
     "definitions": {
         "slot": {

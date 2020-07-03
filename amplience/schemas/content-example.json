@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$id": "https://github.com/neteleven/sap-cx-amplience/amplience/schemas/content-example.json",
+	"$id": "https://raw.githubusercontent.com/neteleven/sap-cx-amplience/master/amplience/schemas/content-example.json",
 
 	"title": "Title",
 	"description": "Description",
@@ -10,7 +10,7 @@
 			"$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
 		}
 	],
-	
+
 	"type": "object",
 	"properties": {
         "text": {
@@ -19,6 +19,6 @@
 			"type": "string",
 			"format": "markdown"
 		}
-		
+
 	}
 }

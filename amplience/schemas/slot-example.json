@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$id": "https://github.com/neteleven/sap-cx-amplience/amplience/schemas/slot-example.json",
+	"$id": "https://raw.githubusercontent.com/neteleven/sap-cx-amplience/master/amplience/schemas/slot-example.json",
 
 	"title": "Content slot example",
 	"description": "Slot for the main content area of the page",
@@ -10,7 +10,7 @@
 			"$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
 		}
 	],
-	
+
 	"type": "object",
 	"properties": {
 		"_environment": {
@@ -20,13 +20,13 @@
 				"slot": {
 					"allOf":[
 						{
-							"$ref": "https://github.com/neteleven/sap-cx-amplience/amplience/schemas/slot-definition.json#/definitions/slot"
+							"$ref": "https://raw.githubusercontent.com/neteleven/sap-cx-amplience/master/amplience/schemas/slot-definition.json#/definitions/slot"
 						},
 						{
-							"properties": 
+							"properties":
 							{
 								"position":
-								{ 
+								{
 									"enum": [ "main-content-slot" ]
 								}
 							}
@@ -43,14 +43,14 @@
 			"maxItems": 5,
 			"items": {
                 "allOf": [
-                    { 
-                        "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link" 
+                    {
+                        "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
                     },
                     {
                         "properties": {
                             "contentType": {
                                 "enum": [
-                                    "https://github.com/neteleven/sap-cx-amplience/amplience/schemas/content-example.json"
+                                    "https://raw.githubusercontent.com/neteleven/sap-cx-amplience/master/amplience/schemas/content-example.json"
                                 ]
                             }
                         }
