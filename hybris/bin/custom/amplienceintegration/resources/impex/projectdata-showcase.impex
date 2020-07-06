@@ -1,11 +1,8 @@
 INSERT_UPDATE AmpWebhook; uri[unique = true]; secret ; validateSecret; apiVSE                                          ; endpoint
-                        ; neteleven         ; ignore ; false         ; ha7rbfqloxhj1v23m8n80xpyw.staging.bigcontent.io ; neteleven
+                        ; neteleven         ; ignore ; false         ; abcdef01234567890abcdef01.staging.bigcontent.io ; neteleven
 
 INSERT_UPDATE AmpContentType; uri[unique = true]                                        ; template        ; webhooks(uri)
-                            ; http://neteleven.de/amplience/slot/main-content-slot.json ; master_template ; neteleven
-                            ; http://neteleven.de/amplience/slot/stage-slot.json        ; master_template ; neteleven
-                            ; http://neteleven.de/amplience/slot/header-slot.json       ; master_template ; neteleven
-                            ; http://neteleven.de/amplience/slot/footer-slot.json       ; master_template ; neteleven
+                            ; https://raw.githubusercontent.com/neteleven/sap-cx-amplience/master/amplience/schemas/slot-example.json ; content_slot_template ; neteleven
 
 INSERT_UPDATE AmpLocaleMapping; ampLocale[unique = true]; locale[unique = true]; webhooks(uri)
                               ; de-DE                   ; de                   ; neteleven
