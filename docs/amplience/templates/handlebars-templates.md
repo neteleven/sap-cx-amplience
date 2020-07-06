@@ -1,7 +1,7 @@
 # SAP CX handlebar templates
 
 Templates for frontend rendering of Amplience content.
-The file `content_slot_template.html` shows a basic example of a template, that can be used to render the component type `content-example.json` with the ontent rendering service.
+The file `content_slot_template.html` shows a basic example of a template, that can be used to render the component type `content-example.json` with the content rendering service.
 
 ## Template logic
 
