@@ -1,5 +1,5 @@
 # SAP CX edition
-When an editions goes live, the corresponding slot objects in SAP CX get published.
+When an editions goes live, the corresponding slot objects in SAP CX gets published.
 
 ## URL
 *POST* - `http://<sap-cx-host>/amp/webhook/<webhook-uri>/edition`
