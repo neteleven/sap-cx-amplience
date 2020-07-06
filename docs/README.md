@@ -1,11 +1,13 @@
 # About
-Inegration of Amplience Dynamic Content into SAP CX (Hybris).
+This project integrates Amplience Dynamic Content into SAP CX (Hybris).
 
-This integration provides different components:
+The integration provides different components:
 * Hybris Extension `amplienceintegration` which provides webhook endpoints for events from Amplience
 * Hybris Addon `amplienceaddon` that provides a taglib to include Amplience content into the Hybris jsp templates
-* Amplience JSON Schemas for content items and slots
+* Amplience JSON Schemas for Content Items and Slots
 * Handlebar Templates
+
+Please read the following parts for more information.
 
 # Hybris
 * see [Hybris general](hybris.md)
