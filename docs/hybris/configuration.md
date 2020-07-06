@@ -7,13 +7,13 @@ In the backoffice, there is a menu item called `Amplience`. There you find all n
 
 Main configuration object
 
-* __URI:__ URI to be used in Amplience as part of the Wenhook URL. Used to identify this configuration.
+* __URI:__ URI to be used in Amplience as part of the Webhook URL. Used to identify this configuration.
 * __Secret:__ Secret used for validation of the content
-* __Validate Secret:__ Weather to validate the content or not. Usefull in DEV environment.
+* __Validate Secret:__ Whether to validate the content or not. Useful in DEV environment.
 * __API Virtual Staging Environment:__ URL of the Virtual Staging Environment API
 * __Endpoint:__ Endpoint in Amplience
 * __Content Types:__ List of supported content types
-* __Locale Mappings:__ Used locale mappings
+* __Locale Mappings:__ Used locale mappings (Amplience locales and Hybris locales)
 * __CMS Sites:__ corresponding CMS Site in SAP CX
 * __Requests:__ List of pending requests for this webhook
 * __Slots:__ List of slots, that use this webhook configuration
@@ -21,7 +21,7 @@ Main configuration object
 
 ## Amplience Content Type
 
-Object that marks a supported content type that should be handeled in SAP CX
+Object that marks a supported content type that should be handled in SAP CX
 
 * __URI:__ URI of the supported content type
 * __Template:__ Template used for content rendering service
@@ -46,14 +46,14 @@ Main object to store content in SAP CX. Representation of one version of the slo
 * __ID:__ Amplience ID of the slot
 * __Name:__ Readable name of the slot
 * __Version:__ Current version of the slot
-* __Published:__ Weather this version was already published or not
-* __Position:__ Lookup parameter "postion" used to identify the slot
+* __Published:__ Whether this version was already published or not
+* __Position:__ Lookup parameter "position" used to identify the slot
 * __Context:__ Lookup parameter "context" used to identify the slot
 * __Lookup:__ Lookup parameter "lookup" used to identify the slot
 * __Delivery Key:__ Alternative lookup parameter to identify the slot - the delivery key by Amplience
 * __Edition ID:__ ID of the edition if slot was published as part of an edition
 * __Edition Start:__ Start date of an edition
-* __Edition End:__ End darte of an edition (only used when edion is set to expire)
+* __Edition End:__ End date of an edition (only used when edion is set to expire)
 * __HTML:__ Localized HTML of the slot version
 * __JSON:__ Localized JSON of the slot version
 * __Webhook:__ Webhook configuration
@@ -62,7 +62,7 @@ Main object to store content in SAP CX. Representation of one version of the slo
 
 ## Amplience Locale Mapping
 
-A mapping between the locale used in Amplience and SAP CX. When JSON and HTML is saven in SAP CX, this is done in the SAP CX locale.
+A mapping between the locale used in Amplience and SAP CX. The SAP CX locale is used when JSON and HTML is persisted.
 
 * __Amplience Locale:__ Code of locale in Amplience
 * __SAP CX Locale:__ Code of locale in SAP CX
