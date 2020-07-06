@@ -1,0 +1,39 @@
+# SAP CX handlebar templates
+
+Templates for frontend rendering of Amplience content.
+The file `content_slot_template.html` shows a basic example of a template, that can be used to render the component type `content-example.json` with the ontent rendering service.
+
+## Template logic
+
+* https://handlebarsjs.com/
+
+## Content rendering service
+
+The rendered slots are called like this:
+
+`<DOMAIN> + "/v1/content/" + <ENDPOINT> + "/content-item/" + <ID> + "?template=" + <TMPL_NAME> + "&locale=" + <LOCALE>`
+
+* __DOMAIN__: `http://abcdef01234567890abcdef01.staging.bigcontent.io` (stage) or `https://c1.adis.ws` (live)
+* __ENDPOINT__: `neteleven`
+* __ID__: Amplience Content ID, e.g. `12345678-abcd-abcd-abcd-0123456789ab`
+* __TMPL_NAME__: `main_template`
+* __LOCALE__: `de-DE`, `en-GB`, `zh-CN`, etc.
+
+see also:
+* https://docs.amplience.net/integration/contentrenderingservice.html
+* https://github.com/helpers/handlebars-helpers
+
+# License
+Copyright (c) 2020. neteleven GmbH (https://www.neteleven.de/)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

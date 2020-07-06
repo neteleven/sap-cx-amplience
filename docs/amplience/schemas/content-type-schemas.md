@@ -32,6 +32,7 @@ The file `slot-example.json` provides an example of a slot. Each slot schema __M
 
 The `_environment` carries the meta information of `position`, `context` and `lookup`, which are essential to identify the right page to place the slot in Hybris.
 
+The file `content-example.json` shows an example content type to be used inside a slot.
 
 # License
 Copyright (c) 2020. neteleven GmbH (https://www.neteleven.de/)

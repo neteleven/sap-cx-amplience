@@ -1,6 +1,7 @@
 # TOC
 * [Webhooks](webhooks.md)
 * [Content Type Schemas](schemas/content-type-schemas.md)
+* [Handlebar Templates](templates/handlebars-templates.md)
 
 # License
 Copyright (c) 2020. neteleven GmbH (https://www.neteleven.de/)
