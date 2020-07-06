@@ -57,7 +57,7 @@ The folderstructure of this project already contains everything that is needed t
 	```
   <!-- amplience integration -->
   <extension name='amplienceintegration' />
-	<extension name='amplienceaddon' />
+  <extension name='amplienceaddon' />
 	```
 - install the addon to your storefront, e.g.:
 	```
@@ -69,4 +69,4 @@ The folderstructure of this project already contains everything that is needed t
 	```
 - run an "Update Running System"
 
-Keep in mind, that you have to use the taglib in your templates. We do not modify any templates!
+Keep in mind, that you have to use the taglib in your templates to show Amplience managed content. We do not modify any templates!
