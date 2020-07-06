@@ -6,28 +6,28 @@ The file `slot-definition.json` provides the basic contract, that is used in SAP
 The file `slot-example.json` provides an example of a slot. Each slot schema __MUST__ contain a property `_environment` which has to be included like this (use the appropriate enum for each particular slot):
 
 ```json
-		"_environment": {
-			"title": "Environment",
-			"type": "object",
-			"properties": {
-				"slot": {
-					"allOf": [
-						{
-							"$ref": "https://neteleven.de/amplience/sap-cx/sapcx-slot.json#/definitions/slot"
-						},
-						{
-							"properties": {
-								"position": {
-									"enum": [
-										"stage-slot", "main-content-slot", "header-slot", "footer-slot"
-									]
-								}
-							}
-						}
-					]
-				}
-			}
-		},
+"_environment": {
+  "title": "Environment",
+  "type": "object",
+  "properties": {
+    "slot": {
+      "allOf": [
+        {
+          "$ref": "https://neteleven.de/amplience/sap-cx/sapcx-slot.json#/definitions/slot"
+        },
+        {
+          "properties": {
+            "position": {
+              "enum": [
+                "stage-slot", "main-content-slot", "header-slot", "footer-slot"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+},
 ```
 
 The `_environment` carries the meta information of `position`, `context` and `lookup`, which are essential to identify the right page to place the slot in Hybris.
