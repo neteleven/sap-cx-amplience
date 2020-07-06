@@ -1,5 +1,6 @@
 # TOC
 * [installation](amplience/install.md)
+* [example content](amplience/example-content.md)
 
 # License
 Copyright (c) 2020. neteleven GmbH (https://www.neteleven.de/)
