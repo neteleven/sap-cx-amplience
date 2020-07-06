@@ -29,6 +29,17 @@ The folderstructure of this project already contains everything that is needed t
 	ant clean all
 	```
 
+### Modify Accelerator templates
+
+- go to template-modifier folder
+	```
+	cd template-modifier
+	```
+- run
+	```
+	./modify_templates.sh {your-folder-above-hybris}
+	```
+
 ### Start server
 - go to (target) platform
 	```
