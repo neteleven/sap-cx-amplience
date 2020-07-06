@@ -1,5 +1,5 @@
 # SAP CX delete
-When a slot gets archived, the corresponding slot objects in SAP CX get deleted.
+When a slot gets archived, the corresponding slot objects in SAP CX gets deleted.
 
 ## URL
 *POST* - `http://<sap-cx-host>/amp/webhook/<webhook-uri>/delete`
