@@ -1,10 +1,10 @@
 # Install
 
-There are two scenarios how to setup the integration.
+There are two scenarios how to setup the integration: A clean installation for a new project and an installation for an existing Hybris project.
 
 ## Clean install in the current folder
 
-The folderstructure of this project already contains everything that is needed to build and run SAP CX.
+The folder structure of this project already contains everything that is needed to build and run SAP CX.
 
 - get SAP CX install package, e.g. `CXCOMM190500P_12-70004140.ZIP`
 - unzip `CXCOMM190500P_12-70004140.ZIP`
