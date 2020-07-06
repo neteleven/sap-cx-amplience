@@ -1,0 +1,41 @@
+# Configuration
+
+## JSON parsing
+
+As the payload in Amplience webhooks is not fixed, we decided to have the extraction of data in the webhook processing configurable.
+The `project.properties` file in the `amplienceintegration` extension contains JSONPath expressions, that specify what in the webhooks payload is used.
+
+```
+amplience.json.webhook.request.id=$.requestId
+amplience.json.webhook.update.contenttype=$.payload.body._meta.schema
+amplience.json.webhook.update.id=$.payload.id
+amplience.json.webhook.update.label=$.payload.label
+amplience.json.webhook.update.version=$.payload.version
+amplience.json.webhook.update.editionid=$.payload.body._meta.edition.id
+amplience.json.webhook.update.editionstart=$.payload.body._meta.edition.start
+amplience.json.webhook.update.editionend=$.payload.body._meta.lifecycle.expiryTime
+amplience.json.webhook.update.deliveryKey=$.payload.body._meta.deliveryKey
+amplience.json.webhook.delete.id=$.payload.id
+amplience.json.webhook.publish.id=$.payload.rootContentItem.id
+amplience.json.webhook.edition.id=$.payload.id
+amplience.json.slot.context=$.content._environment.slot.context
+amplience.json.slot.lookup=$.content._environment.slot.lookup
+amplience.json.slot.position=$.content._environment.slot.position
+```
+
+It is easily possible to overwrite those settings in your `local.properties` file and adjust the behaviour to your needs.
+
+# License
+Copyright (c) 2020. neteleven GmbH (https://www.neteleven.de/)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

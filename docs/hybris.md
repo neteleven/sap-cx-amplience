@@ -1,6 +1,7 @@
 # TOC
 * [architecture](hybris/architecture.md)
 * [installation](hybris/install.md)
+* [configuration](hybris/configuration.md)
 
 # License
 Copyright (c) 2020. neteleven GmbH (https://www.neteleven.de/)
