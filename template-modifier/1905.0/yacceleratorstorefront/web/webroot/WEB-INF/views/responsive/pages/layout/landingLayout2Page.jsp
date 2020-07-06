@@ -6,10 +6,10 @@
 
 <template:page pageTitle="${pageTitle}">
 
-    <!-- amplience-showcase-start-->
+    <!-- amplience-integration-start-->
     <amp:ampSlot position="stage-slot" context="page" lookup="${cmsPage.uid}"/>
     <amp:ampSlot position="main-content-slot" context="page" lookup="${cmsPage.uid}"/>
-    <!-- amplience-showcase-end-->
+    <!-- amplience-integration-end-->
 
     <cms:pageSlot position="Section1" var="feature">
         <cms:component component="${feature}" />
