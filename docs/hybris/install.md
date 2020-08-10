@@ -61,7 +61,7 @@ The folder structure of this project already contains everything that is needed 
 	```
 - install the addon to your storefront, e.g.:
 	```
-	ant addoninstall -Daddonnames="amplienceaddon" -DaddonStorefront.yacceleratorstorefront="yacceleratorstorefront"
+	ant addoninstall -Daddonnames="amplienceaddon" -DaddonStorefront.yacceleratorstorefront="<YOUR_STOREFRONT_EXTENSION_HERE>"
 	```
 - build your system, e.g.:
 	```
